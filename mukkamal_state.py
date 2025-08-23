@@ -34,7 +34,7 @@ async def message_handler(message: types.Message):
     reply_markub = types.ReplyKeyboardMarkup(keyboard=kbs, resize_keyboard=True)
 
     await message.answer(
-        text="Assalomu aleykum, Evos botiga xush kelibsiz Buyurtma berish uchun /delivery  tugmasini bosing!", 
+        text="Assalomu aleykum!!!, Evos botiga xush kelibsiz Buyurtma berish uchun /delivery  tugmasini bosing!", 
         reply_markup=reply_markub
     
     )
